@@ -1,0 +1,221 @@
+.main-app-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  padding: 20px;
+}
+
+.company-logo {
+  margin: 15px;
+  width: 150px;
+  height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .company-logo {
+    margin-left: 35px;
+  }
+}
+
+.user-container {
+  background-color: #5763a5;
+  margin: 25px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 35vh;
+}
+
+@media screen and (min-width: 768px) {
+  .user-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+.password-manager-sm {
+  margin: 20px;
+  height: 450px;
+  width: 450px;
+}
+
+.password-manager-lg {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .password-manager-sm {
+    display: none;
+  }
+  .password-manager-lg {
+    display: inline;
+    margin: 20px;
+    width: 30vw;
+    height: 45vh;
+  }
+}
+
+.user-data-container {
+  background-color: #454f84;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 15px;
+  width: 80vw;
+  margin: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  .user-data-container {
+    width: 30vw;
+    height: 40vh;
+  }
+}
+
+.input-logo {
+  height: 20px;
+  width: 20px;
+  border-right: 1px solid #94a3b8;
+  background-color: transparent;
+  margin-left: 15px;
+}
+
+.data-input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f8fafc;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.input-element {
+  padding: 10px;
+  border: none;
+  color: #3d4249;
+  font-weight: bolder;
+  width: 70vw;
+}
+
+@media screen and (min-width: 768px) {
+  .input-element {
+    width: 35vw;
+  }
+}
+
+.add-button {
+  background-color: #0ea5e9;
+  color: #ffffff;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.form-title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.bottom-container {
+  background-color: #7683cb;
+  min-height: 35vh;
+  margin: 15px;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .bottom-container {
+    margin-left: 50px;
+    margin-right: 50px;
+    min-height: 55vh;
+  }
+}
+
+.bottom-top-container {
+  width: 85vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-container {
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  height: 35px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.search-input {
+  width: 180px;
+  padding: 10px;
+  border: none;
+}
+
+.line {
+  border: 1px solid #f8fafc;
+  width: 85vw;
+}
+
+.checkbox-container {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+}
+
+.bottom-text {
+  font-size: 15px;
+}
+
+.check-box-input {
+  height: 15px;
+  width: 15px;
+}
+
+.no_password_container {
+  height: 17vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 55px;
+}
+
+.no_password_image {
+  height: 250px;
+  width: 350px;
+}
+
+.count {
+  border: 1px solid #f8fafc;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
